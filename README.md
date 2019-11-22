@@ -67,5 +67,7 @@ learn typescript for node.js
     ```
 8. 创建开发分支，开始code
   - `git checkout -b dev`
+  - code code code ...
+  - `git push`
 9. 运行
   - `yarn dev`
