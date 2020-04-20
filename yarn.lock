@@ -686,6 +686,11 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.npm.taobao.org/copy-descriptor/download/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
+core-js@^3.6.4:
+  version "3.6.5"
+  resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
+  integrity sha1-c5XcJzrzf7LlDpvT2f6EEoUjHRo=
+
 core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/core-util-is/download/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -3209,6 +3214,13 @@ ts-node@*, ts-node@^8.5.2:
     make-error "^1.1.1"
     source-map-support "^0.5.6"
     yn "^3.0.0"
+
+ts-polyfill@^3.8.2:
+  version "3.8.2"
+  resolved "https://registry.npm.taobao.org/ts-polyfill/download/ts-polyfill-3.8.2.tgz#7375c6b6a4ae074af4f6200ff6c0d32dbbd113cb"
+  integrity sha1-c3XGtqSuB0r09iAP9sDTLbvRE8s=
+  dependencies:
+    core-js "^3.6.4"
 
 tsconfig@^7.0.0:
   version "7.0.0"
